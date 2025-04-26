@@ -19,7 +19,7 @@ function Hero() {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-left"
+            className="text-center lg:text-left"
           >
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
               <span className="text-primary">Spice Up</span> Your Life
@@ -38,17 +38,17 @@ function Hero() {
               </p>
             </motion.div>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button primary>Explore Products</Button>
               <Button secondary>Find Stores</Button>
             </div>
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="hero-image-container flex justify-center lg:justify-end relative"
+            className="hero-image-container flex justify-center lg:justify-end"
           >
             <img
               src="https://static.wixstatic.com/media/15bb16_ff778dbfa8c54cbd9f43e973c593b6f3~mv2.png/v1/crop/x_0,y_86,w_1146,h_2876/fill/w_558,h_1410,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Super%20hot%20kook%20kook%20525g.png"
